@@ -5,3 +5,9 @@ body
     padding: 0 auto;
     color: fuchsia;
 }
+
+h1
+{
+    text-shadow: 0px 5px rgb(165, 42, 42, 0.75);
+    text-decoration: overline;
+}
