@@ -1,20 +1,33 @@
-body 
-{
+body {
     font-family: "arial";
     text-align: center;
-    padding: 0 auto;
+    padding: 0px;
+    margin: 0px;
     color: rgb(128, 128, 128);
 }
-#container 
-{
-   background-color: aqua;
-   padding: 2 px 50px solid gray;
-   box-sizing: border-box;
 
+#container {
+    background-color: white;
+    box-sizing: border-box;
+    max-width: 90%;
+    margin: 0px auto;
+    border: 2px solid gray;
 }
 
-h1
-{
+#hiperblog {
+    background-color: blueviolet;
+    color: white;
+    padding: 1px;
+}
+
+#img-hiperblog{
+    float: left;
+    padding-left: 350px;
+    
+}
+h1 {
+    text-align: center;
+    font-family: "lucida sans";
     text-shadow: 0px 5px rgb(165, 42, 42, 0.75);
-    text-decoration: overline;
+    text-align: left;
 }
